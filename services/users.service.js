@@ -45,7 +45,7 @@ module.exports = {
 			return new Promise(resolve => {
 				let promises = [];
 				for(let i = 0; i < 100; i++) {
-					
+					// create a user 
 					let createUser = ctx.call("users.create", {
 						username: Fakerator.internet.userName(),
 						name: Fakerator.names.name(),
