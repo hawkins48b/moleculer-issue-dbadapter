@@ -38,7 +38,7 @@ module.exports = {
 	 */
 	actions: {
 		/**
-		* Test action
+		* Seed database with 100 users
 		*/
 		seed(ctx) {
 			Fakerator.seed(12345);
@@ -61,6 +61,9 @@ module.exports = {
 			});
 		},
 
+		/**
+		 * Perform a textual search with 'find' method
+		 */
 		searchWithFind(ctx) {
 			return ctx.call("users.find", {
 				search: "Dianne",
@@ -68,6 +71,9 @@ module.exports = {
 			});
 		},
 
+		/**
+		 * Perform a textual search with 'list' method
+		 */
 		searchWithList(ctx) {
 			return ctx.call("users.list", {
 				search: "Dianne",
