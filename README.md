@@ -9,10 +9,10 @@ Start Docker environment (logs and hot-reload)
 Seed database with 100 users 
 - http://localhost:3000/api/users/seed
 
-Try to search user with name "Dianne" using 'find' method
+Try to search users with name "Dianne" using 'find' method
 - http://localhost:3000/api/users/searchWithFind
 
-Try to search user with name "Dianne" using 'list' method
+Try to search users with name "Dianne" using 'list' method
 - http://localhost:3000/api/users/searchWithSeed
 
 Shutdown Docker environment
