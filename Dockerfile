@@ -5,7 +5,5 @@ WORKDIR /app
 # npm packages
 COPY package.json package-lock.json ./
 RUN npm install
-# necessary for bcrypt
-# RUN npm rebuild bcrypt --build-from-source
 # Copy project
 COPY . .
