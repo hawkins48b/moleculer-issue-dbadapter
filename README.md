@@ -1,6 +1,7 @@
 [![Moleculer](https://badgen.net/badge/Powered%20by/Moleculer/0e83cd)](https://moleculer.services)
 
 # Moleculer db adapter issue
+This repository demonstrates the impossibility to make a search text with db adapter to a mongo instance with method 'list'.
 
 Start Docker environment (logs and hot-reload)
 - `docker-compose up --build`
