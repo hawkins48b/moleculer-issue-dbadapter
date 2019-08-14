@@ -1,4 +1,4 @@
-// create cars collection
+// create users collection
 db.createCollection("users");
 // create text index for textual search
 db.users.createIndex({
